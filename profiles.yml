@@ -1,0 +1,13 @@
+energy_transition_tracker:
+  outputs:
+    dev:
+      type: duckdb
+      path: 'energy_tracker.duckdb'
+      threads: 4
+
+    prod:
+      type: duckdb
+      path: 'energy_tracker_prod.duckdb'
+      threads: 4
+
+  target: dev
