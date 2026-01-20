@@ -1,0 +1,5 @@
+version: 2
+
+models:
+  - name: silver_global_energy_stats_clean
+    description: Silver model derived from the bronze_global_energy_stats model with renamed columns for better readability.
