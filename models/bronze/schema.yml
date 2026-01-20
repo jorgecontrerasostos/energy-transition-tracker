@@ -21,7 +21,7 @@ models:
       - name: Variable
         data_tests:
           - accepted_values:
-              values: ['Clean', 'Fossil', 'Gas and Other Fossil', 'Hydro', 'Bioenergy and Other Renewables', 'Renewables', 'Wind and Solar', 'Bioenergy', 'Coal', 'Gas', 'Hydro', 'Nuclear', 'Other Fossil', 'Solar', 'Wind', 'Demand', 'Demand per capita', 'Total Generation', 'Net Imports', 'CO2 intensity', 'Total emissions']
+              values: ['Clean', 'Fossil', 'Gas and Other Fossil', 'Bioenergy and Other Renewables', 'Renewables', 'Wind and Solar', 'Bioenergy', 'Coal', 'Gas', 'Hydro', 'Nuclear', 'Other Fossil', 'Solar', 'Wind', 'Demand', 'Demand per capita', 'Total Generation', 'Net Imports', 'CO2 intensity', 'Total emissions']
       - name: Unit
         data_tests:
           - accepted_values:
