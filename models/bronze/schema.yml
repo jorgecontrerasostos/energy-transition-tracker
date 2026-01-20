@@ -10,3 +10,19 @@ models:
       - name: Year
         data_tests:
           - not_null
+      - name: Category
+        data_tests:
+          - accepted_values:
+              values: ['Capacity', 'Electricity demand', 'Electricity generation', 'Electricity imports', 'Power sector emissions']
+      - name: Subcategory
+        data_tests:
+          - accepted_values:
+              values: ['Aggregate fuel', 'Fuel', 'Demand', 'Demand per capita', 'Total', 'Electricity imports', 'CO2 intensity']
+      - name: Variable
+        data_tests:
+          - accepted_values:
+              values: ['Clean', 'Fossil', 'Gas and Other Fossil', 'Hydro', 'Bioenergy and Other Renewables', 'Renewables', 'Wind and Solar', 'Bioenergy', 'Coal', 'Gas', 'Hydro', 'Nuclear', 'Other Fossil', 'Solar', 'Wind', 'Demand', 'Demand per capita', 'Total Generation', 'Net Imports', 'CO2 intensity', 'Total emissions']
+      - name: Unit
+        data_tests:
+          - accepted_values:
+              values: ['GW', 'TWh', 'MWh', '%', 'mtCO2', 'gCO2/kWh']
