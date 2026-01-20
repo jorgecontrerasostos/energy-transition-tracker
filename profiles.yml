@@ -4,6 +4,10 @@ energy_transition_tracker:
       type: duckdb
       path: 'energy_tracker.duckdb'
       threads: 4
+      settings:
+        s3_region: "us-east-1"
+        s3_access_key_id: "{{ env_var('AWS_ACCESS_KEY') }}"
+        s3_secret_access_key: "{{ env_var('AWS_SECRET_KEY') }}"
 
     prod:
       type: duckdb

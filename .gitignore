@@ -22,3 +22,5 @@ claude.md
 # Environment variables (secrets)
 .env
 .env.*
+
+.envrc

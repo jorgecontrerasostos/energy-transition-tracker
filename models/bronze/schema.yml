@@ -1,0 +1,12 @@
+version: 2
+
+models:
+  - name: bronze_global_energy_stats
+    description: Yearly electricity data by country published by Ember. Ranging from 2000 to 2024.
+    columns:
+      - name: Area
+        data_tests:
+          - not_null
+      - name: Year
+        data_tests:
+          - not_null
