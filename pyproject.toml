@@ -10,5 +10,6 @@ dependencies = [
     "duckdb>=1.4.3",
     "ipykernel>=7.1.0",
     "pandas>=2.3.3",
+    "plotly>=6.5.2",
     "s3fs>=2026.1.0",
 ]
