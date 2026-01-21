@@ -2,7 +2,7 @@ energy_transition_tracker:
   outputs:
     dev:
       type: duckdb
-      path: 'energy_tracker.duckdb'
+      path: '/Users/jorgecontreras/Desktop/projects/energy-transition-tracker/energy_tracker.duckdb'
       threads: 4
       settings:
         s3_region: "us-east-1"
