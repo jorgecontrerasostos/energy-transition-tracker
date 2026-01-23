@@ -21,6 +21,6 @@ select
     iso_3_code,
     renewables_twh,
     total_generation_twh,
-    (renewables_twh * 100) / total_generation_twh as renewables_pct_generation
+    round((renewables_twh * 100) / total_generation_twh, 2) as renewables_pct_generation
 from generation_data
 order by renewables_pct_generation desc
