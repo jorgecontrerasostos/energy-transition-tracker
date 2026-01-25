@@ -24,3 +24,6 @@ claude.md
 .env.*
 
 .envrc
+
+.pnpm-store/
+package.json
